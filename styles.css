@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 :root {
 /* Primary colors */
@@ -30,11 +32,17 @@ body {
 }
 .card .heading {
     color: var(--white);
+    font-family: 'Lexend Deca';
+    
 }
 
 /* section */
 section.paragraph {
     color: var(--slightly-transparent-white);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
     
 }
 .heading span {
@@ -46,6 +54,8 @@ section.paragraph {
 .stats {
     display: flex;
     justify-content: center;
+    font-family: 'Inter';
+    font-weight: 400;
 }
 
 .stats h3 {
@@ -55,6 +65,8 @@ section.paragraph {
 .stats span {
     color: var(--slightly-less-transparent-white);
     text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 /* image */
