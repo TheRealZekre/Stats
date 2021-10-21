@@ -25,18 +25,15 @@ body {
 
 /* main="card" */
 .card {
+    display: flex;
     width: 1440px;
     height: 400px;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
     background-color: var(--dark-desaturated-blue);
-    
 }
 .card .heading {
     color: var(--white);
     font-family: 'Lexend Deca';
-    
 }
 
 /* section */
@@ -44,19 +41,14 @@ section.paragraph {
     color: var(--slightly-transparent-white);
     font-family: 'Inter';
     font-weight: 400;
-    
     line-height: 1.5;
-    
 }
 .heading span {
     color: var(--soft-violet);
 }
 
 /* stats */
-
-.stats {
-    display: flex;
-    justify-content: center;
+.stats {    
     font-family: 'Inter';
     font-weight: 400;
 }
@@ -72,7 +64,8 @@ section.paragraph {
     font-size: 1rem;
 }
 
-.img {    
+.img {
+    
     border-radius: 0px 10px 10px 0px;
     height: 100%;
     width: 90%;
