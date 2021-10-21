@@ -25,10 +25,12 @@ body {
 /* main="card" */
 .card {
     width: 1440px;
+    height: 400px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     background-color: var(--dark-desaturated-blue);
+    
 }
 .card .heading {
     color: var(--white);
@@ -69,13 +71,24 @@ section.paragraph {
     font-size: 1rem;
 }
 
-/* image */
+.img {    
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 90%;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: var(--soft-violet);  
+}
+
+ 
+/* image
 .image {
     mix-blend-mode: color-dodge;
     filter: color(red);
     border-radius: 0px 10px 10px 0px;
     
-}
+} */
 
 /* footer */
 .attribution { font-size: 11px; text-align: center; }
