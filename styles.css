@@ -20,6 +20,7 @@
 /* body class="main" */
 body {
     background-color: var(--very-dark-blue);    
+    font-size: 15px;
 }
 
 /* main="card" */
@@ -43,7 +44,7 @@ section.paragraph {
     color: var(--slightly-transparent-white);
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 15px;
+    
     line-height: 1.5;
     
 }
@@ -80,7 +81,7 @@ section.paragraph {
     background-blend-mode: darken;
     background-color: var(--soft-violet);  
 }
-
+ 
  
 /* image
 .image {
