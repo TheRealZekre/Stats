@@ -28,8 +28,7 @@ body {
 /* main="card" */
 .card {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     flex-direction: column;
     width: 1440px;
     height: 400px;
@@ -37,12 +36,15 @@ body {
     background-color: var(--dark-desaturated-blue);
 }
 .card .heading {
+    width: 400px;
+    
     color: var(--white);
     font-family: 'Lexend Deca';
 }
 
 /* section */
 section.paragraph {
+    width: 400px;
     color: var(--slightly-transparent-white);
     font-family: 'Inter';
     font-weight: 400;
@@ -56,7 +58,7 @@ section.paragraph {
 .stats {    
     display:flex;
     justify-content: space-between;
-    max-width: 600px;
+    max-width: 400px;
     font-family: 'Inter';
     font-weight: 400;
 }
@@ -73,15 +75,23 @@ section.paragraph {
     font-size: 1rem;
 }
 .imgwrap {
-    display: block;
-    float: right;
-    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-blend-mode: multiply;
+    background-color: var(--soft-violet);
+    background-repeat: no-repeat;
+    
+    
+    
+    
 }
-.imgwrap .image {
-    display: block;
-    float: right;
-    width: 100%;
-    height: 100%;
+.imgwrap .image { 
+    height: 300px;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-blend-mode: multiply;
+    background-color: var(--soft-violet);
+    
     
  }
 
