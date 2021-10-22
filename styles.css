@@ -21,13 +21,16 @@
 body {
     background-color: var(--very-dark-blue);    
     font-size: 15px;
+       
+    
 }
 
 /* main="card" */
 .card {
     display: flex;
-    align-items: center;
+    align-items: 
     justify-content: center;
+    flex-direction: column;
     width: 1440px;
     height: 400px;
     border-radius: 10px;
@@ -51,6 +54,9 @@ section.paragraph {
 
 /* stats */
 .stats {    
+    display:flex;
+    justify-content: space-between;
+    max-width: 600px;
     font-family: 'Inter';
     font-weight: 400;
 }
@@ -67,7 +73,8 @@ section.paragraph {
 }
 
 .img {
-    
+    display: flex;
+    justify-content: flex-end;
     border-radius: 0px 10px 10px 0px;
     height: 100%;
     width: 90%;
